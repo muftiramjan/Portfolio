@@ -2,7 +2,7 @@
 "use client";
 import React, { useState } from 'react';
 
-const Slaider = () => {
+const Slider = () => {
   // State to track the current slide
   const [currentSlide, setCurrentSlide] = useState(1);
 
@@ -17,7 +17,6 @@ const Slaider = () => {
   const handlePrevSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide === 1 ? totalSlides : prevSlide - 1));
   };
-
   return (
     <div className='flex justify-evenly mt-10'>
       {/* first div */}
@@ -26,7 +25,6 @@ const Slaider = () => {
         <p className='font-semibold text-gray-700 mb-6'>
           Discover my latest projects showcasing creativity and technical expertise in modern web development
         </p>
-
         {/* Buttons below the first div */}
         <div className="flex justify-center space-x-4">
           <button onClick={handlePrevSlide} className="btn btn-circle bg-gray-800 text-white hover:bg-orange-400 transition-transform transform hover:scale-110">
@@ -69,4 +67,4 @@ const Slaider = () => {
   );
 };
 
-export default Slaider;
+export default Slider;

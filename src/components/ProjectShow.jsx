@@ -1,6 +1,7 @@
 'use clint'
 import React from 'react';
-import Slaider from './Slaider';
+import Slider from './Slider';
+
 
 const ProjectShow = () => {
     return (
@@ -12,7 +13,7 @@ const ProjectShow = () => {
            </div>
            {/* 2 div */}
            <div>
-<Slaider></Slaider>
+<Slider></Slider>
            </div>
         </div>
     );

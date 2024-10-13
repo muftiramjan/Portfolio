@@ -12,7 +12,6 @@ const ContactForm = () => {
     github: "https://github.com/muftiramjan",
     facebook: "https://web.facebook.com/mofti.ramajan/",
   };
-
   const [visitorData, setVisitorData] = useState({
     name: "",
     email: "",

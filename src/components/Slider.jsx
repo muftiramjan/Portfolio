@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from 'react';
-import HomePage from './HomePage';
 
 const Slider = () => {
   // State to track the current slide

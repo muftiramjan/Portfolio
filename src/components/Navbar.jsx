@@ -93,7 +93,10 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
+        <Link href="/contact">
+        
         <button className="border-b-2 font-bold w-28 border-b-orange-400 rounded-full text-red-400 p-2">Hire Me</button>
+        </Link>
       </div>
     </div>
   );

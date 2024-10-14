@@ -50,10 +50,13 @@ const Slider = () => {
 
         {/* Second Slide */}
         <div className={`carousel-item ${currentSlide === 2 ? 'block' : 'hidden'} w-full h-full`}>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-            className="w-full h-full object-cover rounded-lg"
-          />
+          <div className="w-full h-full flex items-center justify-center bg-gray-200 rounded-lg">
+            <iframe
+              src="https://my-car-calain-saite.web.app/"
+              title="My Car Calain Saite"
+              className="w-full h-full rounded-lg"
+            ></iframe>
+          </div>
         </div>
 
         {/* Third Slide */}

@@ -47,6 +47,16 @@ const Slider = () => {
             </div>
           </div>
         </div>
+        {/* First Slide */}
+        <div className={`carousel-item ${currentSlide === 1 ? 'block' : 'hidden'} w-full h-full`}>
+          <div className="w-full h-full flex items-center justify-center bg-gradient-to-r from-orange-500 to-red-500 rounded-lg">
+            <div className="text-white text-center">
+              <h2 className="text-4xl font-extrabold mb-4">Welcome to My Portfolio</h2>
+              <p className="text-lg">Check out my web development journey and explore my skills and projects.</p>
+              <a href="https://my-car-calain-saite.web.app" className="mt-6 inline-block bg-white text-orange-500 py-2 px-4 rounded-lg font-semibold hover:bg-orange-500 hover:text-white transition">Visit Website</a>
+            </div>
+          </div>
+        </div>
 
         {/* Second Slide */}
         <div className={`carousel-item ${currentSlide === 2 ? 'block' : 'hidden'} w-full h-full`}>
